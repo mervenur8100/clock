@@ -1,0 +1,50 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .hand {
+    position: absolute;
+    background: #000;
+    transform-origin: bottom center;
+  }
+  
+  .center {
+    width: 12px;
+    height: 12px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #hour {
+    width: 4px;
+    height: 50px;
+    top: calc(50% - 50px);
+    left: calc(50% - 2px);
+    transform-origin: bottom center;
+  }
+  
+  #minute {
+    width: 4px;
+    height: 80px;
+    top: calc(50% - 80px);
+    left: calc(50% - 2px);
+    transform-origin: bottom center;
+  }
+  
+  #second {
+    width: 2px;
+    height: 90px;
+    top: calc(50% - 90px);
+    left: calc(50% - 1px);
+    transform-origin: bottom center;
+  }
+  
